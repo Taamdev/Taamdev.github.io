@@ -14421,3 +14421,26 @@ a.badge-danger.focus,a.badge-danger:focus {
         color: inherit
     }
 }
+
+.select-translate {
+    display: inline-block;
+    background-color: black;
+}
+
+.select-translate select {
+    text-decoration: none;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    display: block;
+    background-color: black;
+}
+
+.select-translate select option:hover {
+    text-decoration: none;
+    background-color: #EDF0F2;
+    color: #ffffff;
+}
