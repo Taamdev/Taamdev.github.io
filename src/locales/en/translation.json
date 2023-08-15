@@ -1,0 +1,36 @@
+{
+    "content": {
+        "functional": "Functional",
+        "class": "Class",
+        "text": "This is text",
+        "next": "Next chapter",
+        "about01": "I'm a PHP Developer with 2 years of experience with a background in PHP programming and web development. I have successfully engaged in small and large projects with the construction and deployment of high-performance web applications. I have knowledge of server-side programming languages and frameworks like Laravel. I'm willing to contribute to a creative working environment and develop breakthrough web solutions.",
+        "about02": "In the next 2 years, I want to expand my knowledge and skills in the field of PHP. I also want to be involved in interesting web development projects and enhance teamwork. From there, contributed to the company's growth and became an outstanding PHP Developer.",
+        "download": "Download CV",
+        "now": "now"
+    },
+    "navigation": {
+        "top": "TOP",
+        "about" : "About me",
+        "skill": "Skills",
+        "experience": "Work Experiences",
+        "prj": "Projects",
+        "personal": "Personal Preference",
+        "contact": "Contact"
+    },
+    "contact": {
+        "label": "Stay in touch",
+        "address": "Address",
+        "msg": "Leave a message",
+        "name": "Name",
+        "email": "E-mail",
+        "message": "Message"
+    },
+    "prj": {
+        "1": "Fruit and vegetable e-shop",
+        "2": "Selling cake e-shop"
+    },
+    "personal": {
+        
+    }
+}

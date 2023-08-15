@@ -1,18 +1,25 @@
 import * as React from 'react';
 
 import { useInfo } from '../../config/data/info';
+import { Translation } from 'react-i18next';
 
 export default function Skills() {
     return (
         <section id="section-03" className="section animation">
             <div className="section-body">
-                <h2 className="section-title animation-translate-overline animation-item-1">Skills</h2>
+                <h2 className="section-title animation-translate-overline animation-item-1">
+                    <Translation>
+                        {
+                            (t, { i18n }) => <>{t('navigation.skill')}</>
+                        }
+                    </Translation>
+                </h2>
                 <div className="row animation-translate animation-item-2">
                     <div className="col-12 col-md-3">
                         <p className="lead animation-translate animation-item-3">Languages</p>
                         <strong className="progress-label">PHP</strong>
                         <strong className="progress-label">Html/Css/JavaScript</strong>
-                        <p className="lead animation-translate animation-item-3">Formal Languages</p>
+                        <p className="lead animation-translate animation-item-3">Self-learning language</p>
                         <strong className="progress-label">Java</strong>
                         <strong className="progress-label">Typescript</strong>
                     </div>
@@ -42,7 +49,13 @@ export default function Skills() {
             <div className="section-footer animation-translate animation-item-3">
                 <a className="section-next goto-section" href="#section-04">
                     <span className="section-next-counter">03/07</span>
-                    <span className="section-next-label">{ useInfo.nextChapter }</span>
+                    <span className="section-next-label">
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('content.next')}</>
+                            }
+                        </Translation>
+                    </span>
                     <span className="section-next-icon"></span>
                 </a>
             </div>

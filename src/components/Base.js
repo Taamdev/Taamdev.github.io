@@ -12,7 +12,7 @@ import HobbiesAndInterests from './pages/HI';
 
 export default function Base() {
     return (
-        <div>
+        <React.Suspense fallback="loading">
             <Header/>
             <Navbar/>
             <main className="content">
@@ -30,6 +30,6 @@ export default function Base() {
                     </div>
                 </div>
             </main>
-        </div>
+        </React.Suspense>
     );
 }

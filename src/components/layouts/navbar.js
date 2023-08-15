@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Translation } from 'react-i18next';
 
 export default function Navbar() {
     return (
@@ -7,43 +8,70 @@ export default function Navbar() {
                 <li className="sections-nav-item">
                     <a href="#section-01" className="nav-link sections-nav-link goto-section active">
                         <span className="sections-nav-counter">01</span>
-                        Top
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('navigation.top')}</>
+                            }
+                        </Translation>
                     </a>
                 </li>
                 <li className="sections-nav-item">
                     <a href="#section-02" className="nav-link sections-nav-link goto-section">
                         <span className="sections-nav-counter">02</span>
-                        About me
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('navigation.about')}</>
+                            }
+                        </Translation>
                     </a>
                 </li>
                 <li className="sections-nav-item">
                     <a href="#section-03" className="nav-link sections-nav-link goto-section">
                         <span className="sections-nav-counter">03</span>
-                        Skills
-                    </a>
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('navigation.skill')}</>
+                            }
+                        </Translation>                    </a>
                 </li>
                 <li className="sections-nav-item">
                     <a href="#section-04" className="nav-link sections-nav-link goto-section">
                         <span className="sections-nav-counter">04</span>
-                        Experiences
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('navigation.experience')}</>
+                            }
+                        </Translation>
                     </a>
                 </li>
                 <li className="sections-nav-item">
                     <a href="#section-05" className="nav-link sections-nav-link goto-section">
                         <span className="sections-nav-counter">05</span>
-                        Projects
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('navigation.prj')}</>
+                            }
+                        </Translation>
                     </a>
                 </li>
                 <li className="sections-nav-item">
                     <a href="#section-06" className="nav-link sections-nav-link goto-section">
                         <span className="sections-nav-counter">06</span>
-                        Hobbies/Interests
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('navigation.personal')}</>
+                            }
+                        </Translation>
                     </a>
                 </li>
                 <li className="sections-nav-item">
                     <a href="#section-07" className="nav-link sections-nav-link goto-section">
                         <span className="sections-nav-counter">07</span>
-                        Contact
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('navigation.contact')}</>
+                            }
+                        </Translation>
                     </a>
                 </li>
                 <li className="sections-nav-item">

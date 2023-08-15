@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { useImage, useInfo } from '../../config/data/info';
+import { Translation } from 'react-i18next';
 
 export default function Home() {
     return (
@@ -17,7 +18,13 @@ export default function Home() {
                     <a className="btn-slice" href="#" target="_blank" rel="noreferrer">
                         <div className="box-2">
                             <div className="btn btn-two">
-                                <span>📥{useInfo.download}</span>
+                                <span>📥
+                                <Translation>
+                                    {
+                                        (t, { i18n }) => <>{t('content.download')}</>
+                                    }
+                                </Translation>
+                                </span>
                             </div>
                         </div>
                     </a>
@@ -26,7 +33,13 @@ export default function Home() {
             <div className="section-footer animation-translate animation-item-4">
                 <a className="section-next goto-section" href="#section-02">
                     <span className="section-next-counter">01/07</span>
-                    <span className="section-next-label">{useInfo.nextChapter}</span>
+                    <span className="section-next-label">
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('content.next')}</>
+                            }
+                        </Translation>
+                    </span>
                     <span className="section-next-icon"></span>
                 </a>
             </div>
