@@ -7,7 +7,8 @@ export const useInfo = {
     nameGithub: 'Tr Ng Tam',
     url: '/',
     download: 'Download CV',
-    bio: "Hello! I'm Tam (Goku). I'm a Web Developer.I studied IT at CD Cong Nghe Thu Duc, I enjoy building web applications and learning new technologies.I love to travel and explore new places. I'm currently based in Vietnamese.",
+    bio: "I'm a PHP Developer with 2 years of experience with a background in PHP programming and web development. I have successfully engaged in small and large projects with the construction and deployment of high-performance web applications. I have knowledge of server-side programming languages and frameworks like Laravel. I'm willing to contribute to a creative working environment and develop breakthrough web solutions.",
+    bio_2: "In the next 2 years, I want to expand my knowledge and skills in the field of PHP. I also want to be involved in interesting web development projects and enhance teamwork. From there, contributed to the company's growth and became an outstanding PHP Developer.",
     nextChapter: 'Next chapter',
     miniBio: [
         {

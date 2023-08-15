@@ -1,0 +1,33 @@
+{
+    "content": {
+        "functional": "Hàm",
+        "class": "Lớp",
+        "text": "Đây là văn bản",
+        "next": "Tiếp theo",
+        "about01": "Tôi là Nhà phát triển PHP với 2 năm kinh nghiệm với nền tảng về lập trình PHP và phát triển web. Tôi đã tham gia thành công vào các dự án lớn và nhỏ với việc xây dựng và triển khai các ứng dụng web hiệu suất cao. Tôi có kiến ​​thức về các ngôn ngữ lập trình phía máy chủ và các framework như Laravel. Tôi sẵn sàng đóng góp cho một môi trường làm việc sáng tạo và phát triển các giải pháp web đột phá.",
+        "about02": "Trong 2 năm tới, tôi muốn mở rộng kiến ​​thức và kỹ năng của mình trong lĩnh vực PHP. Tôi cũng muốn tham gia vào các dự án phát triển web thú vị và nâng cao tinh thần đồng đội. Từ đó, đóng góp vào sự phát triển của công ty và trở thành một PHP Developer xuất sắc.",
+        "download": "Tải về CV",
+        "now": "nay"
+    },
+    "navigation": {
+        "top": "Đầu",
+        "about" : "Về tôi",
+        "skill": "Kỹ năng",
+        "experience": "Kinh nghiệm",
+        "prj": "Dự án",
+        "personal": "Sở thích",
+        "contact": "Liên hệ"
+    },
+    "contact": {
+        "label": "Giữ liên lạc",
+        "address": "Địa chỉ",
+        "msg": "Để lại lời nhắn",
+        "name": "Tên",
+        "email": "E-mail",
+        "message": "Tin nhắn"
+    },
+    "prj": {
+        "1": "Cửa hàng rau quả [Thương mại điện tử]",
+        "2": "Cửa hàng bán bánh [Thương mại điện tử]"
+    }
+}
