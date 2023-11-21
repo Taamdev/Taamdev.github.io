@@ -27,6 +27,21 @@ export default function About() {
                                     (t, { i18n }) => <p>{t('content.about02')}</p>
                                 }
                             </Translation>
+                            <Translation>
+                                {
+                                    (t, { i18n }) => <p>{t('content.about03')}</p>
+                                }
+                            </Translation>
+                            <Translation>
+                                {
+                                    (t, { i18n }) => <p>{t('content.about04')}</p>
+                                }
+                            </Translation>
+                            <Translation>
+                                {
+                                    (t, { i18n }) => <p>{t('content.about05')}</p>
+                                }
+                            </Translation>
                         </article>
                     </div>
                 </div>

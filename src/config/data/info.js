@@ -146,8 +146,26 @@ export const useInfo = {
     long: '10.8454575',
     sendMessageUrl: "https://script.google.com/macros/s/AKfycbyst8zz_7-jvNK6WdC564_62hYMqhcGtZH4U1khUmh7isdZU9fnloNIO2sxZwNOB8IB/exec"
 };
-const urlDomain = "https://gokkutamu.github.io/resume/assets/img";
+const urlDomain = "http://localhost:3000/assets/img";
 export const useImage = {
     imgLogo: urlDomain + '/' + 'logo.png',
-    imgAvatar: urlDomain + '/' + 'avatar.gif'
+    imgAvatar: urlDomain + '/' + 'avatar.gif',
+    php: urlDomain + '/' + 'php-file.png',
+    html: urlDomain + '/' + 'html.png',
+    html5: urlDomain + '/' + 'html5.png',
+    css3: urlDomain + '/' + 'css3.png',
+    java_script: urlDomain + '/' + 'java-script.png',
+    laravel: urlDomain + '/' + 'laravel.png',
+    bootstrap: urlDomain + '/' + 'bootstrap.png',
+    jquery: urlDomain + '/' + 'jquery.png',
+    react: urlDomain + '/' + 'react.png',
+    tailwind_css: urlDomain + '/' + 'tailwind-css.png',
+    mysql: urlDomain + '/' + 'mysql.png',
+    bootstrap: urlDomain + '/' + 'bootstrap.png',
+    mongodb: urlDomain + '/' + 'mongodb.png',
+    git: urlDomain + '/' + 'git.png',
+    linux: urlDomain + '/' + 'linux.png',
+    postman: urlDomain + '/' + 'postman.png',
+    docker: urlDomain + '/' + 'docker.png',
+    npm: urlDomain + '/' + 'npm.png',
 };

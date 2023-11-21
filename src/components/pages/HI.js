@@ -28,7 +28,7 @@ export default function HobbiesAndInterests() {
             </div>
             <div className="section-footer animation-translate animation-item-2">
                 <a className="section-next goto-section" href="#section-07">
-                    <span className="section-next-counter">06/07</span>
+                    <span className="section-next-counter">06/08</span>
                     <span className="section-next-label">
                         <Translation>
                             {

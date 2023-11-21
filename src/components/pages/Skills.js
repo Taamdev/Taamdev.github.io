@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useInfo } from '../../config/data/info';
+import { useImage, useInfo } from '../../config/data/info';
 import { Translation } from 'react-i18next';
 
 export default function Skills() {
@@ -15,34 +15,65 @@ export default function Skills() {
                     </Translation>
                 </h2>
                 <div className="row animation-translate animation-item-2">
-                    <div className="col-12 col-md-3">
+                    <div className="col-6 col-md-3">
                         <p className="lead animation-translate animation-item-3">Languages</p>
-                        <strong className="progress-label">PHP</strong>
-                        <strong className="progress-label">Html/Css/JavaScript</strong>
-                        <p className="lead animation-translate animation-item-3">Self-learning language</p>
-                        <strong className="progress-label">Java</strong>
-                        <strong className="progress-label">Typescript</strong>
+                        <p className="card-img">
+                            <img src={useImage.php} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.html5} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.css3} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.java_script} alt="Avatar" width={100}/>
+                        </p>
                     </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-6 col-md-3">
                         <p className="lead animation-translate animation-item-3">Frameworks</p>
-                        <strong className="progress-label">Laravel</strong>
-                        <strong className="progress-label">Bootstrap/JQuery</strong>
-                        <strong className="progress-label">React</strong>
-                        <strong className="progress-label">TailWind CSS/Material UI</strong>
+                        <p className="card-img">
+                            <img src={useImage.laravel} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.bootstrap} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.jquery} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.react} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.tailwind_css} alt="Avatar" width={100}/>
+                        </p>
                     </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-6 col-md-3">
                         <p className="lead animation-translate animation-item-3">Databases</p>
-                        <strong className="progress-label">MySQL</strong>
-                        <strong className="progress-label">MongoDB</strong>
+                        <p className="card-img">
+                            <img src={useImage.mysql} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.mongodb} alt="Avatar" width={100}/>
+                        </p>
                     </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-6 col-md-3">
                         <p className="lead animation-translate animation-item-3">Tools</p>
-                        <strong className="progress-label">Git/Bitbucket/GitLab</strong>
-                        <strong className="progress-label">Linux</strong>
-                        <strong className="progress-label">Postman</strong>
-                        <strong className="progress-label">Docker</strong>
-                        <strong className="progress-label">Swagger</strong>
-                        <strong className="progress-label">NPM</strong>
+                        <p className="card-img">
+                            <img src={useImage.git} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.linux} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.postman} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.docker} alt="Avatar" width={100}/>
+                        </p>
+                        <p className="card-img">
+                            <img src={useImage.npm} alt="Avatar" width={100}/>
+                        </p>
                     </div>
                 </div>
             </div>

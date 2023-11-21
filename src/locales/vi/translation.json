@@ -4,8 +4,11 @@
         "class": "Lớp",
         "text": "Đây là văn bản",
         "next": "Tiếp theo",
-        "about01": "Tôi là Nhà phát triển PHP với 2 năm kinh nghiệm với nền tảng về lập trình PHP và phát triển web. Tôi đã tham gia thành công vào các dự án lớn và nhỏ với việc xây dựng và triển khai các ứng dụng web hiệu suất cao. Tôi có kiến ​​thức về các ngôn ngữ lập trình phía máy chủ và các framework như Laravel. Tôi sẵn sàng đóng góp cho một môi trường làm việc sáng tạo và phát triển các giải pháp web đột phá.",
-        "about02": "Trong 2 năm tới, tôi muốn mở rộng kiến ​​thức và kỹ năng của mình trong lĩnh vực PHP. Tôi cũng muốn tham gia vào các dự án phát triển web thú vị và nâng cao tinh thần đồng đội. Từ đó, đóng góp vào sự phát triển của công ty và trở thành một PHP Developer xuất sắc.",
+        "about01": "👋 Xin chào! Tôi là Tâm, một lập trình viên PHP đầy đam mê với 2 năm kinh nghiệm. 💻 Tôi chuyên về lập trình web.",
+        "about02": "🎯 Mục tiêu của tôi là tạo ra các ứng dụng web hiệu quả, có khả năng mở rộng và thân thiện với người dùng. Tôi phát triển mạnh mẽ trong một môi trường hợp tác, nơi tôi có thể động não các ý tưởng và làm việc với nhóm để biến chúng thành hiện thực. 👥",
+        "about03": "🌟 Với sự hiểu biết vững chắc về PHP, tôi rất linh hoạt trong việc tạo ra các trang web và ứng dụng web động. Tôi thành thạo các hệ thống quản lý cơ sở dữ liệu như MySQL và có kinh nghiệm tích hợp API cũng như dịch vụ của bên thứ ba. 🔌",
+        "about04": "🚀 Viết mã rõ ràng và được ghi chép rõ ràng là niềm đam mê của tôi, đảm bảo rằng các dự án có thể duy trì và dễ điều hướng. Tôi cũng cố gắng cập nhật các xu hướng mới nhất và các phương pháp hay nhất trong quá trình phát triển PHP. 📚",
+        "about05": "💬 Hãy kết nối và thảo luận về cách các kỹ năng phát triển PHP của tôi có thể đóng góp vào thành công của nhóm bạn. Hãy thoải mái liên hệ và bắt đầu cuộc trò chuyện! 📩",
         "download": "Tải về CV",
         "now": "nay"
     },
@@ -16,7 +19,8 @@
         "experience": "Kinh nghiệm",
         "prj": "Dự án",
         "personal": "Sở thích",
-        "contact": "Liên hệ"
+        "contact": "Liên hệ",
+        "post": "Sự kiện của tôi"
     },
     "contact": {
         "label": "Giữ liên lạc",

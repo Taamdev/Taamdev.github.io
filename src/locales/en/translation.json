@@ -4,8 +4,11 @@
         "class": "Class",
         "text": "This is text",
         "next": "Next chapter",
-        "about01": "I'm a PHP Developer with 2 years of experience with a background in PHP programming and web development. I have successfully engaged in small and large projects with the construction and deployment of high-performance web applications. I have knowledge of server-side programming languages and frameworks like Laravel. I'm willing to contribute to a creative working environment and develop breakthrough web solutions.",
-        "about02": "In the next 2 years, I want to expand my knowledge and skills in the field of PHP. I also want to be involved in interesting web development projects and enhance teamwork. From there, contributed to the company's growth and became an outstanding PHP Developer.",
+        "about01": "👋 Hi! I'm Tam, a passionate PHP developer with 2 years of experience. 💻 I specialize in web developer.",
+        "about02": "🎯 My goal is to create efficient, scalable, and user-friendly web applications. I thrive in a collaborative environment, where I can brainstorm ideas and work with a team to turn them into reality. 👥",
+        "about03": "🌟 With a strong understanding of PHP, I'm versatile in crafting dynamic websites and web applications. I'm proficient in database management systems like MySQL and have experience in integrating APIs and third-party services. 🔌",
+        "about04": "🚀 Writing clean and well-documented code is my passion, ensuring that projects are maintainable and easy to navigate. I also strive to stay updated with the latest trends and best practices in PHP development. 📚",
+        "about05": "💬 Let's connect and discuss how my PHP development skills can contribute to your team's success. Feel free to reach out and start a conversation! 📩",
         "download": "Download CV",
         "now": "now"
     },
@@ -16,7 +19,8 @@
         "experience": "Work Experiences",
         "prj": "Projects",
         "personal": "Personal Preference",
-        "contact": "Contact"
+        "contact": "Contact",
+        "post": "Posts"
     },
     "contact": {
         "label": "Stay in touch",

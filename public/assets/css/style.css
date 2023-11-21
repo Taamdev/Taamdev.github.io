@@ -13649,7 +13649,8 @@ a.badge-danger.focus,a.badge-danger:focus {
 }
 
 .article p {
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    font-size: 16px;
 }
 
 .article-header {

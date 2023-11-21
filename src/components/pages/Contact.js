@@ -94,25 +94,22 @@ export default function Contact() {
                             </div>
                             <button type="submit" className="btn btn-two"><span>Send</span></button>
                         </form>
-                        <ul id="sections-nav" className="sections-nav-animated">
-                            <li className="sections-nav-item back">
-                                <a href="#section-01" className="goto-section back-top">
-                                    <Translation>
-                                        {
-                                            (t, { i18n }) => <>{t('navigation.top')}</>
-                                        }
-                                    </Translation>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                     
                 </div>
             </div>
             <div className="section-footer animation-translate animation-item-5">
-                <span className="section-next goto-section">
+                <a className="section-next goto-section">
                     <span className="section-next-counter">07/07</span>
-                </span>
+                    <span className="section-next-label">
+                        <Translation>
+                            {
+                                (t, { i18n }) => <>{t('content.next')}</>
+                            }
+                        </Translation>
+                    </span>
+                    <span className="section-next-icon"></span>
+                </a>
             </div>
         </section>
     );
