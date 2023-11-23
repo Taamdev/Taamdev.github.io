@@ -15,65 +15,36 @@ export default function Skills() {
                     </Translation>
                 </h2>
                 <div className="row animation-translate animation-item-2">
-                    <div className="col-6 col-md-3">
-                        <p className="lead animation-translate animation-item-3">Languages</p>
-                        <p className="card-img">
-                            <img src={useImage.php} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.html5} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.css3} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.java_script} alt="Avatar" width={100}/>
-                        </p>
+                    <div className="col-12 col-md-6 pb-2">
+                        <p className="lead animation-translate animation-item-3">Earning skills</p>
+                        <img className="mr-1 mt-2" src={useImage.php} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.html5} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.css3} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.java_script} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.laravel} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.bootstrap} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.jquery} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.react} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.tailwind_css} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.mysql} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.mongodb} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.graphql} alt="Avatar" width={50}/>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <p className="lead animation-translate animation-item-3">Frameworks</p>
-                        <p className="card-img">
-                            <img src={useImage.laravel} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.bootstrap} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.jquery} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.react} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.tailwind_css} alt="Avatar" width={100}/>
-                        </p>
+                    <div className="col-12 col-md-6 pb-2">
+                        <p className="lead animation-translate animation-item-3">Learn basic languages</p>
+                        <img className="mr-1 mt-2" src={useImage.typescript} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.java} alt="Avatar" width={50}/>
                     </div>
-                    <div className="col-6 col-md-3">
-                        <p className="lead animation-translate animation-item-3">Databases</p>
-                        <p className="card-img">
-                            <img src={useImage.mysql} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.mongodb} alt="Avatar" width={100}/>
-                        </p>
-                    </div>
-                    <div className="col-6 col-md-3">
-                        <p className="lead animation-translate animation-item-3">Tools</p>
-                        <p className="card-img">
-                            <img src={useImage.git} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.linux} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.postman} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.docker} alt="Avatar" width={100}/>
-                        </p>
-                        <p className="card-img">
-                            <img src={useImage.npm} alt="Avatar" width={100}/>
-                        </p>
+                    <div className="col-12 col-md-6 pt-2 pb-2">
+                        <p className="lead animation-translate animation-item-3">Tools I use</p>
+                        <img className="mr-1 mt-2" src={useImage.vscode} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.slack} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.git} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.sourcetree} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.linux} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.postman} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.docker} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.npm} alt="Avatar" width={50}/>
                     </div>
                 </div>
             </div>

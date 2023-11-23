@@ -146,7 +146,7 @@ export const useInfo = {
     long: '10.8454575',
     sendMessageUrl: "https://script.google.com/macros/s/AKfycbyst8zz_7-jvNK6WdC564_62hYMqhcGtZH4U1khUmh7isdZU9fnloNIO2sxZwNOB8IB/exec"
 };
-const urlDomain = "http://localhost:3000/assets/img";
+const urlDomain = "https://gokkutamu.github.io/resume/assets/img";
 export const useImage = {
     imgLogo: urlDomain + '/' + 'logo.png',
     imgAvatar: urlDomain + '/' + 'avatar.gif',
@@ -168,4 +168,11 @@ export const useImage = {
     postman: urlDomain + '/' + 'postman.png',
     docker: urlDomain + '/' + 'docker.png',
     npm: urlDomain + '/' + 'npm.png',
+    typescript: urlDomain + '/' + 'typescript.png',
+    java: urlDomain + '/' + 'java.png',
+    vscode: urlDomain + '/' + 'vscode.png',
+    sourcetree: urlDomain + '/' + 'sourcetree.png',
+    graphql: urlDomain + '/' + 'graphql.png',
+    slack: urlDomain + '/' + 'slack.png',
+    no_img: urlDomain + '/' + 'media/no_img.jpg',
 };

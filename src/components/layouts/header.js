@@ -4,9 +4,16 @@ import i18n from '../../translation/i18n';
 import { useImage } from '../../config/data/info';
 
 export default function Header() {
+    const [translate, setTranslate] = React.useState('en');
+
     function changeLanguage(e) {
         i18n.changeLanguage(e.target.value);
     }
+    React.useEffect(() => {
+        if (translate) {
+            i18n.changeLanguage(translate);
+        }
+    }, [translate])
 
     return (
         <section className="header">
@@ -16,8 +23,8 @@ export default function Header() {
                     <span className="header-title">Tr Ng Tam</span>
                 </a>
                 <div className="select-translate">
-                    <select onChange={changeLanguage}>
-                        <option value="en" selected>
+                    <select name="translate" onChange={changeLanguage} defaultValue={translate}>
+                        <option value="en">
                             English
                         </option>
                         <option value="vi">
