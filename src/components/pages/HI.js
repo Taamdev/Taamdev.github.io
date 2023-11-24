@@ -7,12 +7,13 @@ export default function HobbiesAndInterests() {
     return (
         <section id="section-06" className="section animation">
             <div className="section-body">
-                <h2 className="section-title animation-translate-overline animation-item-1">
+                <h4 className="section-title animation-translate-overline animation-item-1">
                     <Translation>
                         {
                             (t, { i18n }) => <>{t('navigation.personal')}</>
                         }
-                    </Translation></h2>
+                    </Translation>
+                </h4>
                 <div className="row animation-translate animation-item-2">
                     {useInfo.hobbies.first.map((value, key) => (
                         <div className="col-12 col-md-6" key={key}>

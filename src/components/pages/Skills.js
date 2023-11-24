@@ -7,33 +7,33 @@ export default function Skills() {
     return (
         <section id="section-03" className="section animation">
             <div className="section-body">
-                <h2 className="section-title animation-translate-overline animation-item-1">
+                <h4 className="section-title animation-translate-overline animation-item-1">
                     <Translation>
                         {
                             (t, { i18n }) => <>{t('navigation.skill')}</>
                         }
                     </Translation>
-                </h2>
+                </h4>
                 <div className="row animation-translate animation-item-2">
                     <div className="col-12 col-md-6 pb-2">
                         <p className="lead animation-translate animation-item-3">Earning skills</p>
                         <img className="mr-1 mt-2" src={useImage.php} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.laravel} alt="Avatar" width={50}/>
                         <img className="mr-1 mt-2" src={useImage.html5} alt="Avatar" width={50}/>
                         <img className="mr-1 mt-2" src={useImage.css3} alt="Avatar" width={50}/>
                         <img className="mr-1 mt-2" src={useImage.java_script} alt="Avatar" width={50}/>
-                        <img className="mr-1 mt-2" src={useImage.laravel} alt="Avatar" width={50}/>
-                        <img className="mr-1 mt-2" src={useImage.bootstrap} alt="Avatar" width={50}/>
                         <img className="mr-1 mt-2" src={useImage.jquery} alt="Avatar" width={50}/>
-                        <img className="mr-1 mt-2" src={useImage.react} alt="Avatar" width={50}/>
-                        <img className="mr-1 mt-2" src={useImage.tailwind_css} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.bootstrap} alt="Avatar" width={50}/>
                         <img className="mr-1 mt-2" src={useImage.mysql} alt="Avatar" width={50}/>
-                        <img className="mr-1 mt-2" src={useImage.mongodb} alt="Avatar" width={50}/>
-                        <img className="mr-1 mt-2" src={useImage.graphql} alt="Avatar" width={50}/>
                     </div>
                     <div className="col-12 col-md-6 pb-2">
-                        <p className="lead animation-translate animation-item-3">Learn basic languages</p>
+                        <p className="lead animation-translate animation-item-3">Learn new skills</p>
                         <img className="mr-1 mt-2" src={useImage.typescript} alt="Avatar" width={50}/>
                         <img className="mr-1 mt-2" src={useImage.java} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.react} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.tailwind_css} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.graphql} alt="Avatar" width={50}/>
+                        <img className="mr-1 mt-2" src={useImage.mongodb} alt="Avatar" width={50}/>
                     </div>
                     <div className="col-12 col-md-6 pt-2 pb-2">
                         <p className="lead animation-translate animation-item-3">Tools I use</p>

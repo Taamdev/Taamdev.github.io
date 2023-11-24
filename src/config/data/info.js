@@ -175,4 +175,6 @@ export const useImage = {
     graphql: urlDomain + '/' + 'graphql.png',
     slack: urlDomain + '/' + 'slack.png',
     no_img: urlDomain + '/' + 'media/no_img.jpg',
+    linkedin: urlDomain + '/' + 'media/Linkedin.gif',
+    github: urlDomain + '/' + 'media/github.gif',
 };

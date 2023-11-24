@@ -9,13 +9,13 @@ export default function About() {
             <div className="section-body">
                 <div className="row">
                     <div className="col col-xl-10">
-                        <h2 className="section-title animation-translate-overline animation-item-1">
+                        <h4 className="section-title animation-translate-overline animation-item-1">
                             <Translation>
                                 {
                                     (t, { i18n }) => <>{t('navigation.about')}</>
                                 }
                             </Translation>
-                        </h2>
+                        </h4>
                         <article className="article animation-translate animation-item-2">
                             <Translation>
                                 {

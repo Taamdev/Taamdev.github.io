@@ -34,7 +34,7 @@ export default function Home() {
                     <div className="avatar">
                         <img src={useImage.imgAvatar} className="jumbotron-img animation-translate animation-item-1" alt="Avatar" />
                     </div>
-                    <h1 className="display-1 display-animated display-animated-in animation-translate animation-item-2">{useInfo.nameGithub}</h1>
+                    <h2 className="display-1 display-animated display-animated-in animation-translate animation-item-2">{useInfo.nameGithub}</h2>
                     <p className="lead animation-translate animation-item-3">{useInfo.position}</p>
                 </div>
                 <div className="pt-6 pt-lg-8 pb-0 mb-0">
@@ -51,6 +51,14 @@ export default function Home() {
                                 </span>
                             </div>
                         </div>
+                    </a>
+                </div>
+                <div className="pt-6 pb-0 mb-0 row">
+                    <a className="col-md-1 col-2" href="https://www.linkedin.com/in/tam001/" target="_blank" rel="noreferrer">
+                        <img src={useImage.linkedin} className="jumbotron-img jumbotron-img-media animation-translate animation-item-1" width={50}/>
+                    </a>
+                    <a className="col-md-1 col-2" href="https://github.com/gokkutamu" target="_blank" rel="noreferrer">
+                        <img src={useImage.github} className="jumbotron-img jumbotron-img-media animation-translate animation-item-1" width={50}/>
                     </a>
                 </div>
             </div>

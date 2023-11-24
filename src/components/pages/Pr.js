@@ -7,13 +7,13 @@ export default function Project() {
     return (
         <section id="section-05" className="section animation">
             <div className="section-body">
-                <h2 className="section-title animation-translate-overline animation-item-1">
+                <h4 className="section-title animation-translate-overline animation-item-1">
                     <Translation>
                         {
                             (t, { i18n }) => <>{t('navigation.prj')}</>
                         }
                     </Translation>
-                </h2>
+                </h4>
                 <div className="row animation-translate animation-item-2">
                     <div className="col-12 col-md-4 mt-2 mr-2">
                         <div className="card">
@@ -25,6 +25,7 @@ export default function Project() {
                                     Docker - MySQL - RESTful Api
                                 </p>
                                 <div className="btn-group">
+                                    <a role="button" href="#" className="btn btn-primary">More</a>
                                     <a role="button" href="https://helloactivity.com/" target="_blank" className="btn btn-primary">Link</a>
                                 </div>
                             </div>
@@ -40,6 +41,7 @@ export default function Project() {
                                     Docker - MySQL
                                 </p>
                                 <div className="btn-group">
+                                    <a role="button" href="#" className="btn btn-primary">More</a>
                                     <a role="button" href="#" target="_blank" className="btn btn-primary">Link</a>
                                 </div>
                             </div>
@@ -55,8 +57,8 @@ export default function Project() {
                                     MySQL
                                 </p>
                                 <div className="btn-group">
+                                    <a role="button" href="https://github.com/gokkutamu/php__booking__cars#readme" target="_blank" className="btn btn-primary">More</a>
                                     <a role="button" href="https://github.com/gokkutamu/php__booking__cars" target="_blank" className="btn btn-primary">GitHub</a>
-                                    <a role="button" href="#tag" target="_blank" className="btn btn-primary">Link</a>
                                 </div>
                             </div>
                         </div>
@@ -68,45 +70,12 @@ export default function Project() {
                                 <div className="card-title h5">Cake Website</div>
                                 <p className="card-text" style={{ width: "83%" }}>E Commerce — Cake website PHP (PHPUnit , WSC , Design Partent)</p>
                                 <div className="btn-group">
+                                    <a role="button" href="https://github.com/gokkutamu/PHP-Web2-Ck-V1#readme" target="_blank" className="btn btn-primary">More</a>
                                     <a role="button" href="https://github.com/gokkutamu/PHP-Web2-Ck-V1" target="_blank" className="btn btn-primary">GitHub</a>
-                                    <a role="button" href="#tag" target="_blank" className="btn btn-primary">Link</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    {/*  
-                    <div className="col-12 col-md-4">
-                        <a className="card" href="https://github.com/gokkutamu/Nhom6_Be2_St4" target="_blank" rel="noreferrer">
-                            <div className="card-body">
-                                <h3 className="card-title">
-                                    <Translation>
-                                        {
-                                            (t, { i18n }) => <>{t('prj.1')}</>
-                                        }
-                                    </Translation>
-                                </h3>
-                                <h4 className="card-subtitle">Laravel 7.x</h4>
-                                <p className="card-tags">Frontend - Backend</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <a className="card" href="https://github.com/gokkutamu/PHP-Web2-Ck-V1" target="_blank" rel="noreferrer">
-                            <div className="card-body">
-                                <h3 className="card-title">
-                                    <Translation>
-                                        {
-                                            (t, { i18n }) => <>{t('prj.2')}</>
-                                        }
-                                    </Translation>
-                                </h3>
-                                <h4 className="card-subtitle">PHP (PHPUnit , WSC , Design Partent)</h4>
-                                <p className="card-tags">Backend</p>
-                            </div>
-                        </a>
-                    </div>
-                    */}
                 </div>
             </div>
             <div className="section-footer animation-translate animation-item-3">
