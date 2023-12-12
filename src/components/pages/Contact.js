@@ -92,7 +92,7 @@ export default function Contact() {
                                 <textarea className="form-control" name="message" id="contact-form-message" placeholder="" rows="5" required=""></textarea>
                                 <div className="invalid-feedback">Please type some message.</div>
                             </div>
-                            <button type="submit" className="btn btn-two"><span>Send</span></button>
+                            <button type="submit" className="btn btn-prima"><span>Send</span></button>
                         </form>
                     </div>
                     
