@@ -35,7 +35,7 @@ export default function Home() {
                         <img src={useImage.imgAvatar} className="jumbotron-img animation-translate animation-item-1" alt="Avatar" />
                     </div>
                     <h2 className="display-1 display-animated display-animated-in animation-translate animation-item-2">{useInfo.nameGithub}</h2>
-                    <p className="lead animation-translate animation-item-3">{useInfo.position}</p>
+                    <div className="lead animation-translate animation-item-3">{useInfo.position}</div>
                 </div>
                 <div className="pt-6 pt-lg-8 pb-0 mb-0">
                     {/* target="_blank" rel="noreferrer" */}
@@ -72,7 +72,9 @@ export default function Home() {
                             }
                         </Translation>
                     </span>
-                    <span className="section-next-icon"></span>
+                    <span className="section-next-icon">
+                        <img src={useImage.next} width={20}/>
+                    </span>
                 </a>
             </div>
         </section>

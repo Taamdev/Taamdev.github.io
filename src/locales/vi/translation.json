@@ -18,7 +18,7 @@
         "skill": "Kỹ năng",
         "experience": "Kinh nghiệm",
         "prj": "Dự án",
-        "personal": "Sở thích",
+        "knowledges": "Kiến thức",
         "contact": "Liên hệ",
         "post": "Sự kiện của tôi"
     },
@@ -33,5 +33,26 @@
     "prj": {
         "1": "Cửa hàng rau quả [Thương mại điện tử]",
         "2": "Cửa hàng bán bánh [Thương mại điện tử]"
-    }
+    },
+    "personal": {
+        "analytics": "Phân tích",
+        "billing": "Thanh toán",
+        "blogging": "Viết blog",
+        "carsharing": "Chia sẻ xe",
+        "chat_bots": "Robot trò chuyện",
+        "e_commerce": "Thương mại điện tử",
+        "identity_verification": "Thương mại điện tử",
+        "open_discussion_systems": "Hệ thống thảo luận mở",
+        "payment_gateway": "Cổng thanh toán",
+        "project_management": "Quản lý dự án",
+        "product_data_management": "Quản lý dự án",
+        "realtime_messaging": "Nhắn tin thời gian thực",
+        "social_authentication": "Xác thực xã hội",
+        "social_networks": "Mạng xã hội",
+        "statistics": "Số liệu thống kê",
+        "issue_invoices": "Xuất hóa đơn",
+        "sending_mail": "Gửi thư",
+        "product_reviews": "Viết đánh giá"
+    },
+    "field": "Lĩnh vực nghiên cứu"
 }

@@ -59,7 +59,7 @@ export default function Navbar() {
                         <span className="sections-nav-counter">06</span>
                         <Translation>
                             {
-                                (t, { i18n }) => <>{t('navigation.personal')}</>
+                                (t, { i18n }) => <>{t('navigation.knowledges')}</>
                             }
                         </Translation>
                     </a>

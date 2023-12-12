@@ -3,8 +3,8 @@ export const useInfo = {
     portfolio: 'my portfolio website!',
     firstName: 'Tran',
     lastName: 'Ngoc Tam',
-    position: 'Web Developer',
-    nameGithub: 'Tr Ng Tam',
+    position: 'Junior Software Engineer',
+    nameGithub: 'Tran Ngoc Tam',
     url: '/',
     download: 'Download CV',
     bio: "I'm a PHP Developer with 2 years of experience with a background in PHP programming and web development. I have successfully engaged in small and large projects with the construction and deployment of high-performance web applications. I have knowledge of server-side programming languages and frameworks like Laravel. I'm willing to contribute to a creative working environment and develop breakthrough web solutions.",
@@ -66,23 +66,11 @@ export const useInfo = {
         first: [
             {
                 label: 'Adopt Fish',
-                emoji: '🐠',
             },
             {
                 label: 'Listen Music',
-                emoji: '🎶',
             },
-        ],
-        last: [
-            {
-                label: 'Anime',
-                emoji: '🎬',
-            },
-            {
-                label: 'Traveling',
-                emoji: '✈️',
-            }
-        ],
+        ]
     },
     projects: {
         experiences: [
@@ -147,6 +135,7 @@ export const useInfo = {
     sendMessageUrl: "https://script.google.com/macros/s/AKfycbyst8zz_7-jvNK6WdC564_62hYMqhcGtZH4U1khUmh7isdZU9fnloNIO2sxZwNOB8IB/exec"
 };
 const urlDomain = "https://gokkutamu.github.io/resume/assets/img";
+const urlDomainLocal = "http://localhost:3001/assets/img";
 export const useImage = {
     imgLogo: urlDomain + '/' + 'logo.png',
     imgAvatar: urlDomain + '/' + 'avatar.gif',
@@ -177,4 +166,5 @@ export const useImage = {
     no_img: urlDomain + '/' + 'media/no_img.jpg',
     linkedin: urlDomain + '/' + 'media/Linkedin.gif',
     github: urlDomain + '/' + 'media/github.gif',
+    next: urlDomain + '/' + 'next-svgrepo-com.png'
 };

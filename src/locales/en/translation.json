@@ -16,9 +16,9 @@
         "top": "Home",
         "about" : "About me",
         "skill": "Skills",
-        "experience": "Work Experiences",
+        "experience": "Works",
         "prj": "Projects",
-        "personal": "Personal Preference",
+        "knowledges": "Knowledges",
         "contact": "Contact",
         "post": "Posts"
     },
@@ -35,6 +35,24 @@
         "2": "Selling cake e-shop"
     },
     "personal": {
-        
-    }
+        "analytics": "Analytics",
+        "billing": "Billing",
+        "blogging": "Blogging",
+        "carsharing": "Carsharing",
+        "chat_bots": "Chat bots",
+        "e_commerce": "E-commerce",
+        "identity_verification": "Identity verification",
+        "open_discussion_systems": "Open discussion systems",
+        "payment_gateway": "Payment gateway",
+        "project_management": "Project management",
+        "product_data_management": "Product data management",
+        "realtime_messaging": "Realtime messaging",
+        "social_authentication": "Social authentication",
+        "social_networks": "Social networks",
+        "statistics": "Statistics",
+        "issue_invoices": "Issue invoices",
+        "sending_mail": "Sending mail",
+        "product_reviews": "Product reviews"
+    },
+    "field": "Researched Fields"
 }

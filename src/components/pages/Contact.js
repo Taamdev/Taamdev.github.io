@@ -101,14 +101,6 @@ export default function Contact() {
             <div className="section-footer animation-translate animation-item-5">
                 <a className="section-next goto-section">
                     <span className="section-next-counter">07/07</span>
-                    <span className="section-next-label">
-                        <Translation>
-                            {
-                                (t, { i18n }) => <>{t('content.next')}</>
-                            }
-                        </Translation>
-                    </span>
-                    <span className="section-next-icon"></span>
                 </a>
             </div>
         </section>

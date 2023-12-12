@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useInfo } from '../../config/data/info';
+import { useImage, useInfo } from '../../config/data/info';
 import { Translation } from 'react-i18next';
 
 export default function Experiences() {
@@ -43,7 +43,9 @@ export default function Experiences() {
                             }
                         </Translation>    
                     </span>
-                    <span className="section-next-icon"></span>
+                    <span className="section-next-icon">
+                        <img src={useImage.next} width={20}/>
+                    </span>
                 </a>
             </div>
         </section>

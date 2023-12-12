@@ -88,7 +88,9 @@ export default function Project() {
                             }
                         </Translation>
                     </span>
-                    <span className="section-next-icon"></span>
+                    <span className="section-next-icon">
+                        <img src={useImage.next} width={20}/>
+                    </span>
                 </a>
             </div>
         </section>
