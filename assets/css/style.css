@@ -10213,6 +10213,7 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
     padding: 1rem 0;
     z-index: 1030;
     border-bottom: 2px solid hsl(0deg 1.05% 5.45% / 20%);
+    background: linear-gradient(45deg, #EEEEEE, #FAF8F9, #FFFFFF);
 }
 
 .header-brand {
