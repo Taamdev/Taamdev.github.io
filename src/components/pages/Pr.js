@@ -57,8 +57,8 @@ export default function Project() {
                                     MySQL
                                 </p>
                                 <div className="btn-group">
-                                    <a role="button" href="https://github.com/gokkutamu/php__booking__cars#readme" target="_blank" className="btn btn-primary">More</a>
-                                    <a role="button" href="https://github.com/gokkutamu/php__booking__cars" target="_blank" className="btn btn-primary">GitHub</a>
+                                    <a role="button" href="https://github.com/trngtam10d//php__booking__cars#readme" target="_blank" className="btn btn-primary">More</a>
+                                    <a role="button" href="https://github.com/trngtam10d//php__booking__cars" target="_blank" className="btn btn-primary">GitHub</a>
                                 </div>
                             </div>
                         </div>
@@ -70,8 +70,8 @@ export default function Project() {
                                 <div className="card-title h5">Cake Website</div>
                                 <p className="card-text" style={{ width: "83%" }}>E Commerce — Cake website PHP (PHPUnit , WSC , Design Partent)</p>
                                 <div className="btn-group">
-                                    <a role="button" href="https://github.com/gokkutamu/PHP-Web2-Ck-V1#readme" target="_blank" className="btn btn-primary">More</a>
-                                    <a role="button" href="https://github.com/gokkutamu/PHP-Web2-Ck-V1" target="_blank" className="btn btn-primary">GitHub</a>
+                                    <a role="button" href="https://github.com/trngtam10d//PHP-Web2-Ck-V1#readme" target="_blank" className="btn btn-primary">More</a>
+                                    <a role="button" href="https://github.com/trngtam10d//PHP-Web2-Ck-V1" target="_blank" className="btn btn-primary">GitHub</a>
                                 </div>
                             </div>
                         </div>

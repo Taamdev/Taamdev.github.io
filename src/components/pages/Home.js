@@ -57,7 +57,7 @@ export default function Home() {
                     <a className="col-md-1 col-2" href="https://www.linkedin.com/in/tam001/" target="_blank" rel="noreferrer">
                         <img src={useImage.linkedin} className="jumbotron-img jumbotron-img-media animation-translate animation-item-1" width={50}/>
                     </a>
-                    <a className="col-md-1 col-2" href="https://github.com/gokkutamu" target="_blank" rel="noreferrer">
+                    <a className="col-md-1 col-2" href="https://github.com/trngtam10d" target="_blank" rel="noreferrer">
                         <img src={useImage.github} className="jumbotron-img jumbotron-img-media animation-translate animation-item-1" width={50}/>
                     </a>
                 </div>

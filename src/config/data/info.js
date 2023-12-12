@@ -31,7 +31,7 @@ export const useInfo = {
             label: 'resume',
         },
         {
-            link: 'https://github.com/gokkutamu',
+            link: 'https://github.com/trngtam10d/',
             icon: 'fa fa-github',
             label: 'github',
         },
@@ -134,7 +134,7 @@ export const useInfo = {
     long: '10.8454575',
     sendMessageUrl: "https://script.google.com/macros/s/AKfycbyst8zz_7-jvNK6WdC564_62hYMqhcGtZH4U1khUmh7isdZU9fnloNIO2sxZwNOB8IB/exec"
 };
-const urlDomain = "https://gokkutamu.github.io/resume/assets/img";
+const urlDomain = "https://trngtam10d.github.io/assets/img";
 const urlDomainLocal = "http://localhost:3001/assets/img";
 export const useImage = {
     imgLogo: urlDomain + '/' + 'logo.png',
