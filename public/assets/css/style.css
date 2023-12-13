@@ -11283,20 +11283,14 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 
 .card {
     position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
     border: 2px solid rgba(0,0,0,.125);
-    border-radius: 0
+    border-radius: 0;
+    flex-direction: row;
 }
 
 .card>hr {
@@ -11333,7 +11327,8 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 .card-text:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: 12px;
 }
 
 .card-link:hover {
@@ -11556,7 +11551,9 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 .card-img-top {
     -webkit-transition: opacity .15s linear;
     transition: opacity .15s linear;
-    opacity: .75
+    opacity: .75;
+    width: 100px;
+    object-fit: scale-down;
 }
 
 .card-body {
@@ -13506,7 +13503,8 @@ a.badge-danger.focus,a.badge-danger:focus {
 
 .section-body {
     padding-top: 5rem;
-    padding-bottom: 5rem
+    padding-bottom: 5rem;
+    font-size: 16px;
 }
 
 .section-title {
@@ -14428,4 +14426,16 @@ a.badge-danger.focus,a.badge-danger:focus {
 .line-anywhere {
     line-break: anywhere;
 }
-
+.card-header-top {
+    font-weight: 800;
+}
+span>a {
+   transition: transform .2s;
+   margin: 0 auto;
+}
+span>a:hover {
+    transform: scale(1.5);
+}
+.img-box-shaw {
+    box-shadow: 0px 0px 2px 0px #c7bebe;
+}

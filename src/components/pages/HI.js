@@ -17,7 +17,7 @@ export default function HobbiesAndInterests() {
                 <div className="animation-translate animation-item-2">
                     <h6 className="animation-item-2"><Translation>{(t, { i18n }) => <>{t('field')}</>}</Translation></h6>
                     <div className="row">
-                        <ul className="col-md-12 col-6">
+                        <ul className="col-md-12 col-12">
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.analytics')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.billing')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.blogging')}</>}</Translation></li>
@@ -27,7 +27,7 @@ export default function HobbiesAndInterests() {
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.chat_bots')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.open_discussion_systems')}</>}</Translation></li>
                         </ul>
-                        <ul className="col-md-12 col-6">
+                        <ul className="col-md-12 col-12">
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.payment_gateway')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.product_reviews')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.product_data_management')}</>}</Translation></li>

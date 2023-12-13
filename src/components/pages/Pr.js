@@ -15,64 +15,88 @@ export default function Project() {
                     </Translation>
                 </h4>
                 <div className="row animation-translate animation-item-2">
-                    <div className="col-12 col-md-4 mt-2 mr-2">
+                    <div className="col-12 col-md-4">
                         <div className="card">
-                            <img className="card-img-top" src={useImage.no_img} alt="card-img" style={{ width: "83%" }} />
+                            <img className="card-img-top mr-2" src={useImage.no_img} alt="card-img"/>
                             <div className="card-body">
-                                <div className="card-title h5">Hello Activity</div>
-                                <p className="card-text" style={{ width: "83%" }}>
+                                <div className="card-header-top mb-2">
+                                    Hello Activity
+                                    <span className="ml-2">
+                                        <a href="#" target="_blank" className="mr-2">
+                                            <img src={useImage.more} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                        <a href="https://helloactivity.com/" target="_blank" >
+                                            <img src={useImage.url} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                    </span>
+                                </div>
+                                <p className="card-text">
                                     Use PHP - HTML - CSS - JavaScript
                                     Docker - MySQL - RESTful Api
                                 </p>
-                                <div className="btn-group">
-                                    <a role="button" href="#" className="btn btn-primary">More</a>
-                                    <a role="button" href="https://helloactivity.com/" target="_blank" className="btn btn-primary">Link</a>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 mt-2 mr-2">
+                    <div className="col-12 col-md-4">
                         <div className="card">
-                            <img className="card-img-top" src={useImage.no_img} alt="card-img" style={{ width: "83%" }} />
+                            <img className="card-img-top mr-2" src={useImage.no_img} alt="card-img"/>
                             <div className="card-body">
-                                <div className="card-title h5">Cherish</div>
-                                <p className="card-text" style={{ width: "83%" }}>
+                                <div className="card-header-top mb-2">
+                                    Cherish
+                                    <span className="ml-2">
+                                        <a href="#" target="_blank" className="mr-2">
+                                            <img src={useImage.more} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                        <a href="#" target="_blank" >
+                                            <img src={useImage.url} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                    </span>
+                                </div>
+                                <p className="card-text">
                                     Use PHP - HTML - CSS - JavaScript
                                     Docker - MySQL
                                 </p>
-                                <div className="btn-group">
-                                    <a role="button" href="#" className="btn btn-primary">More</a>
-                                    <a role="button" href="#" target="_blank" className="btn btn-primary">Link</a>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 mt-2 mr-2">
+                    <div className="col-12 col-md-4">
                         <div className="card">
-                            <img className="card-img-top" src={useImage.no_img} alt="card-img" style={{ width: "83%" }} />
+                            <img className="card-img-top mr-2" src={useImage.no_img} alt="card-img"/>
                             <div className="card-body">
-                                <div className="card-title h5">Yotrip</div>
-                                <p className="card-text" style={{ width: "83%" }}>
+                                <div className="card-header-top mb-2">
+                                    Yotrip
+                                    <span className="ml-2">
+                                        <a href="https://github.com/trngtam10d/php__booking__cars#readme" target="_blank" className="mr-2">
+                                            <img src={useImage.more} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                        <a href="https://github.com/trngtam10d/php__booking__cars" target="_blank" >
+                                            <img src={useImage.url} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                    </span>
+                                </div>
+                                <p className="card-text">
                                     Use Laravel - HTML - CSS - JavaScript
                                     MySQL
                                 </p>
-                                <div className="btn-group">
-                                    <a role="button" href="https://github.com/trngtam10d//php__booking__cars#readme" target="_blank" className="btn btn-primary">More</a>
-                                    <a role="button" href="https://github.com/trngtam10d//php__booking__cars" target="_blank" className="btn btn-primary">GitHub</a>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 mt-2 mr-2">
+                    <div className="col-12 col-md-4">
                         <div className="card">
-                            <img className="card-img-top" src={useImage.no_img} alt="card-img" style={{ width: "83%" }} />
+                            <img className="card-img-top mr-2" src={useImage.no_img} alt="card-img"/>
                             <div className="card-body">
-                                <div className="card-title h5">Cake Website</div>
-                                <p className="card-text" style={{ width: "83%" }}>E Commerce — Cake website PHP (PHPUnit , WSC , Design Partent)</p>
-                                <div className="btn-group">
-                                    <a role="button" href="https://github.com/trngtam10d//PHP-Web2-Ck-V1#readme" target="_blank" className="btn btn-primary">More</a>
-                                    <a role="button" href="https://github.com/trngtam10d//PHP-Web2-Ck-V1" target="_blank" className="btn btn-primary">GitHub</a>
+                                <div className="card-header-top mb-2">
+                                    Cake Website
+                                    <span className="ml-2">
+                                        <a href="https://github.com/trngtam10d/PHP-Web2-Ck-V1#readme" target="_blank" className="mr-2">
+                                            <img src={useImage.more} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                        <a href="https://github.com/trngtam10d/PHP-Web2-Ck-V1" target="_blank" >
+                                            <img src={useImage.url} alt="card-img" width={20} className="img-box-shaw"/>
+                                        </a>
+                                    </span>
                                 </div>
+                                <p className="card-text">E Commerce — Cake website PHP (PHPUnit , WSC , Design Partent)</p>
                             </div>
                         </div>
                     </div>

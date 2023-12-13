@@ -135,7 +135,7 @@ export const useInfo = {
     sendMessageUrl: "https://script.google.com/macros/s/AKfycbyst8zz_7-jvNK6WdC564_62hYMqhcGtZH4U1khUmh7isdZU9fnloNIO2sxZwNOB8IB/exec"
 };
 const urlDomain = "https://trngtam10d.github.io/assets/img";
-const urlDomainLocal = "http://localhost:3001/assets/img";
+const urlDomainLocal = "http://localhost:3000/assets/img";
 export const useImage = {
     imgLogo: urlDomain + '/' + 'logo.png',
     imgAvatar: urlDomain + '/' + 'avatar.gif',
@@ -166,5 +166,7 @@ export const useImage = {
     no_img: urlDomain + '/' + 'media/no_img.jpg',
     linkedin: urlDomain + '/' + 'media/Linkedin.gif',
     github: urlDomain + '/' + 'media/github.gif',
-    next: urlDomain + '/' + 'next-svgrepo-com.png'
+    next: urlDomain + '/' + 'next-svgrepo-com.png',
+    more: urlDomain + '/' + 'more-svgrepo-com.svg',
+    url: urlDomain + '/' + 'link-02-svgrepo-com.svg'
 };
