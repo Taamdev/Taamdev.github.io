@@ -15,7 +15,7 @@ export default function Project() {
                     </Translation>
                 </h4>
                 <div className="row animation-translate animation-item-2">
-                    <div className="col-12 col-md-4">
+                    {/* <div className="col-12 col-md-4">
                         <div className="card">
                             <img className="card-img-top mr-2" src={useImage.no_img} alt="card-img"/>
                             <div className="card-body">
@@ -36,8 +36,8 @@ export default function Project() {
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-12 col-md-4">
+                    </div> */}
+                    {/* <div className="col-12 col-md-4">
                         <div className="card">
                             <img className="card-img-top mr-2" src={useImage.no_img} alt="card-img"/>
                             <div className="card-body">
@@ -58,7 +58,7 @@ export default function Project() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-12 col-md-4">
                         <div className="card">
                             <img className="card-img-top mr-2" src={useImage.no_img} alt="card-img"/>

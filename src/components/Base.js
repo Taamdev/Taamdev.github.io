@@ -6,30 +6,32 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Header from './layouts/header';
 import Skills from './pages/Skills';
-import Experiences from './pages/Experiences'; 
+import Experiences from './pages/Experiences';
 import Project from './pages/Pr';
 import HobbiesAndInterests from './pages/HI';
 
 export default function Base() {
     return (
         <React.Suspense fallback="loading">
-            <Header/>
-            <Navbar/>
-            <main className="content">
-                <div className="container-fluid-limited">
-                    <div className="row">
-                        <div className="col col-xl-9">
-                            <Home/>
-                            <About/>
-                            <Skills/>
-                            <Experiences/>
-                            <Project/>
-                            <HobbiesAndInterests/>
-                            <Contact/>
+            <div className="container-fluid-limited">
+                <Header />
+                <Navbar />
+                <main className="content">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col col-xl-9">
+                                <Home />
+                                <About />
+                                <Skills />
+                                <Experiences />
+                                <Project />
+                                <HobbiesAndInterests />
+                                <Contact />
+                            </div>
                         </div>
                     </div>
-                </div>
-            </main>
+                </main>
+            </div>
         </React.Suspense>
     );
 }
