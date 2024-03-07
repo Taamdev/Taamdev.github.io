@@ -879,7 +879,7 @@ a.bg-danger:focus,a.bg-danger:hover,button.bg-danger:focus,button.bg-danger:hove
 }
 
 .border-top {
-    border-top: 2px solid hsla(0,0%,100%,.2)!important
+    border-top: 2px solid hsla(0, 11%, 22%, 0.2)!important
 }
 
 .border-right {
@@ -887,7 +887,7 @@ a.bg-danger:focus,a.bg-danger:hover,button.bg-danger:focus,button.bg-danger:hove
 }
 
 .border-bottom {
-    border-bottom: 2px solid hsla(0,0%,100%,.2)!important
+    border-bottom: 2px solid hsla(0, 11%, 22%, 0.2)!important
 }
 
 .border-left {
@@ -11266,13 +11266,13 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 .card {
     position: relative;
     display: flex;
-    flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
     border: 2px solid rgba(0,0,0,.125);
     border-radius: 0;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .card>hr {
@@ -11531,11 +11531,12 @@ input:-webkit-autofill,input:-webkit-autofill:active,input:-webkit-autofill:focu
 }
 
 .card-img-top {
-    -webkit-transition: opacity .15s linear;
     transition: opacity .15s linear;
     opacity: .75;
-    width: 100px;
-    object-fit: scale-down;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    background-color: darkgrey;
 }
 
 .card-body {
@@ -11862,12 +11863,11 @@ a.badge-danger.focus,a.badge-danger:focus {
 
 .jumbotron-img {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
     border: 1px solid #000;
     margin-bottom: 1rem;
-    border-radius: 99px;
-    object-fit: cover;
+    object-fit: contain;
+    border-radius: 20px 20px 0 20px;
 }
 
 .alert {
@@ -14428,6 +14428,8 @@ a.badge-danger.focus,a.badge-danger:focus {
 }
 .card-header-top {
     font-weight: 800;
+    display: flex;
+    justify-content: space-between;
 }
 span>a {
    transition: transform .2s;
