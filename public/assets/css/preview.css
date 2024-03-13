@@ -94,9 +94,9 @@
 }
 
 .avatar {
-	height: 200px;
 	position: relative;
-	width: 200px;
+	display: flex;
+	align-items: center;
 }
 
 @keyframes cycle-colors {
@@ -126,40 +126,6 @@
 		opacity: 0;
 		transform: scale(1);
 	}
-}
-
-.avatar::before,
-.avatar::after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	animation: pulse 2s linear infinite;
-	border: #fff solid 8px;
-	border-radius: 9999px;
-	box-sizing: border-box;
-	content: ' ';
-	height: 10rem;
-	opacity: .6;
-	transform: scale(0.714);
-	width: 10rem;
-	z-index: 1;
-}
-
-.avatar::after {
-	animation-delay: 1s;
-}
-
-.avatar:hover img {
-	content: url('../img/logo.png');
-}
-
-.avatar:hover::before,
-.avatar:hover::after {
-	animation: pulse 1s linear infinite, cycle-colors 6s linear infinite;
-}
-
-.avatar:hover::after {
-	animation-delay: .5s;
 }
 
 /* Header */

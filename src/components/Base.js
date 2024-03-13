@@ -21,16 +21,21 @@ export default function Base() {
                         <div className="row">
                             <div className="col col-xl-9">
                                 <Home />
-                                <About />
                                 <Skills />
                                 <Experiences />
                                 <Project />
                                 <HobbiesAndInterests />
-                                <Contact />
                             </div>
                         </div>
                     </div>
                 </main>
+                <footer className="py-3 px-2 border-top">
+                    <div className="container-fluid-limited d-flex align-items-center justify-content-center">
+                        <div>
+                            Build with ❤️ by @trngtam10d
+                        </div>
+                    </div>
+                </footer>
             </div>
         </React.Suspense>
     );

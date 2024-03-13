@@ -7,13 +7,13 @@ export default function Contact() {
     return (
         <section id="section-07" className="section animation">
             <div className="section-body">
-                <h4 className="section-title animation-translate-overline animation-item-1">
+                <h2 className="animation-translate-overline animation-item-1">
                     <Translation>
                         {
                             (t, { i18n }) => <>{t('navigation.contact')}</>
                         }
                     </Translation>
-                </h4>
+                </h2>
                 <div className="row mb-10 animation-translate animation-item-2">
                     <div className="col-12 col-md-4">
                         <div className="contact">
@@ -98,11 +98,11 @@ export default function Contact() {
                     
                 </div>
             </div>
-            <div className="section-footer animation-translate animation-item-5">
+            {/* <div className="section-footer animation-translate animation-item-5">
                 <a className="section-next goto-section">
                     <span className="section-next-counter">07/07</span>
                 </a>
-            </div>
+            </div> */}
         </section>
     );
 }

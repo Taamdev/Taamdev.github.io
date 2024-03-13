@@ -7,17 +7,17 @@ export default function HobbiesAndInterests() {
     return (
         <section id="section-06" className="section animation">
             <div className="section-body">
-                <h4 className="section-title animation-translate-overline animation-item-1">
+                <h2 className="animation-translate-overline animation-item-1">
                     <Translation>
                         {
                             (t, { i18n }) => <>{t('navigation.knowledges')}</>
                         }
                     </Translation>
-                </h4>
+                </h2>
                 <div className="animation-translate animation-item-2">
-                    <h6 className="animation-item-2"><Translation>{(t, { i18n }) => <>{t('field')}</>}</Translation></h6>
+                    <div className="animation-item-2"><Translation>{(t, { i18n }) => <>{t('field')}</>}</Translation></div>
                     <div className="row">
-                        <ul className="col-md-12 col-12">
+                        <ul className="col-md-6 col-12">
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.analytics')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.billing')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.blogging')}</>}</Translation></li>
@@ -26,8 +26,9 @@ export default function HobbiesAndInterests() {
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.identity_verification')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.chat_bots')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.open_discussion_systems')}</>}</Translation></li>
+                            <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.sending_mail')}</>}</Translation></li>
                         </ul>
-                        <ul className="col-md-12 col-12">
+                        <ul className="col-md-6 col-12">
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.payment_gateway')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.product_reviews')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.product_data_management')}</>}</Translation></li>
@@ -36,13 +37,12 @@ export default function HobbiesAndInterests() {
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.social_networks')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.statistics')}</>}</Translation></li>
                             <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.issue_invoices')}</>}</Translation></li>
-                            <li className="list-inside line-anywhere"><Translation>{(t, { i18n }) => <>{t('personal.sending_mail')}</>}</Translation></li>
                         </ul>
                     </div>
                     
                 </div>
             </div>
-            <div className="section-footer animation-translate animation-item-2">
+            {/* <div className="section-footer animation-translate animation-item-2">
                 <a className="section-next goto-section" href="#section-07">
                     <span className="section-next-counter">06/07</span>
                     <span className="section-next-label">
@@ -56,7 +56,7 @@ export default function HobbiesAndInterests() {
                         <img src={useImage.next} width={20}/>
                     </span>
                 </a>
-            </div>
+            </div> */}
         </section>
     );
 }

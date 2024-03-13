@@ -7,13 +7,13 @@ export default function Experiences() {
     return (
         <section id="section-04" className="section animation">
             <div className="section-body">
-                <h4 className="section-title animation-translate-overline animation-item-1">
+                <h2 className="animation-translate-overline animation-item-1">
                     <Translation>
                         {
                             (t, { i18n }) => <>{t('navigation.experience')}</>
                         }
                     </Translation>
-                </h4>
+                </h2>
                 <div className="timeline timeline-animated">
                     <div className="timeline-item">
                         <span className="timeline-date">2022&nbsp;–&nbsp;
@@ -23,30 +23,16 @@ export default function Experiences() {
                                 }
                             </Translation>
                         </span>
-                        <h3 className="timeline-title">Uruca . Co., Ltd</h3>
+                        <h3 className="timeline-title">Wacontre Co.,Ltd</h3>
                         <p className="timeline-text">Junior Developer</p>
                     </div>
                     <div className="timeline-item">
                         <span className="timeline-date">2021&nbsp;–&nbsp;2022</span>
                         <h3 className="timeline-title">ONICORN MEDIA.,JSC</h3>
-                        <p className="timeline-text">Intern Developer, Team leader (2 - 5 member)</p>
+                        <p className="timeline-text">Intern Developer</p>
+                        <p className="timeline-text">Team leader (2 - 5 member)</p>
                     </div>
                 </div>
-            </div>
-            <div className="section-footer animation-translate animation-item-2">
-                <a className="section-next goto-section" href="#section-05">
-                    <span className="section-next-counter">04/07</span>
-                    <span className="section-next-label">
-                        <Translation>
-                            {
-                                (t, { i18n }) => <>{t('content.next')}</>
-                            }
-                        </Translation>    
-                    </span>
-                    <span className="section-next-icon">
-                        <img src={useImage.next} width={20}/>
-                    </span>
-                </a>
             </div>
         </section>
     );

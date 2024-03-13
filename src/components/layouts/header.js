@@ -17,12 +17,12 @@ export default function Header() {
 
     return (
         <section className="header">
-            <div className="container-fluid-limited d-flex align-items-center justify-content-between">
-                <a href="/" className="header-brand">
+            <div className="container-fluid-limited d-flex align-items-center justify-content-end">
+                {/* <a href="/" className="header-brand">
                     <img src={useImage.imgLogo} data-light-src={useImage.imgLogo} data-dark-src={useImage.imgLogo} alt="Your logo" />
                     <span className="header-title">Tr Ng Tam</span>
-                </a>
-                <div className="select-translate">
+                </a> */}
+                {/* <div className="select-translate">
                     <select name="translate" onChange={changeLanguage} defaultValue={translate}>
                         <option value="en">
                             English
@@ -31,7 +31,7 @@ export default function Header() {
                             Vietnamese
                         </option>
                     </select>
-                </div>
+                </div> */}
                 <button className="sections-nav-toggler" aria-label="Toggle navigation">
                     <span className="sections-nav-toggler-bar"></span>
                     <span className="sections-nav-toggler-bar"></span>

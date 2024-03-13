@@ -9,13 +9,13 @@ export default function About() {
             <div className="section-body">
                 <div className="row">
                     <div className="col col-xl-10">
-                        <h4 className="section-title animation-translate-overline animation-item-1">
+                        <h2 className="animation-translate-overline animation-item-1">
                             <Translation>
                                 {
                                     (t, { i18n }) => <>{t('navigation.about')}</>
                                 }
                             </Translation>
-                        </h4>
+                        </h2>
                         <article className="article animation-translate animation-item-2">
                             <Translation>
                                 {
@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="section-footer animation-translate animation-item-3">
+            {/* <div className="section-footer animation-translate animation-item-3">
                 <a className="section-next goto-section" href="#section-03">
                     <span className="section-next-counter">02/07</span>
                     <span className="section-next-label">
@@ -60,7 +60,7 @@ export default function About() {
                         <img src={useImage.next} width={20}/>
                     </span>
                 </a>
-            </div>
+            </div> */}
         </section>
     );
 }
