@@ -16159,8 +16159,50 @@ span>a:hover {
     font-size: 20px!important;
 }
 
-@media (max-width: 1680px) {
-    .media {
-        display: block !important;
-    }
+.social-menu {
+    display: flex;
+}
+
+.social-menu li{
+    list-style: none;
+}
+
+.social-menu li .fa {
+    font-size: 16px;
+    line-height: 2;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu li .fa:hover{
+    color: #fff;
+}
+
+.social-menu li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.5);
+}
+
+.social-menu li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu li:nth-child(1) a:hover{
+    background-color: #0077b5;
+}
+.social-menu li:nth-child(2) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu li:nth-child(3) a:hover{
+    background-color: #0a66c2;
+}
+.social-menu li:nth-child(4) a:hover{
+    background-color: #E4405F;
 }
