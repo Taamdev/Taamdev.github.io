@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import Base from './components/Base';
+import Main from './components/Main';
 
 function App() {
   return (
     <BrowserRouter>
-      <Base />
+      <Main />
     </BrowserRouter>
   );
 }
