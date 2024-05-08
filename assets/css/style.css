@@ -15465,7 +15465,7 @@ a.badge-danger:focus {
 .timeline-item {
     position: relative;
     padding-left: 1rem;
-    margin-bottom: 5rem
+    margin-bottom: 2.5rem
 }
 
 .timeline-item:before {
@@ -15479,13 +15479,14 @@ a.badge-danger:focus {
 }
 
 .timeline-title {
-    font-size: 31.5px;
-    font-size: 2.25rem;
-    margin-bottom: .5rem
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
 }
 
 .timeline-text {
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: .75em;
 }
 
 .timeline-date {
