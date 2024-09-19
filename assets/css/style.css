@@ -55,7 +55,15 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 2;
-    color: #000;
+    background-color: #f2f2f2;
+    color: #1f2023;
+}
+
+@media (prefers-color-scheme: dark) {
+    body.dark {
+        background-color: #1f2023;
+        color: #f2f2f2;
+    }
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -154,7 +162,7 @@ sup {
 }
 
 a {
-    color: #000;
+    color: #494eff;
     text-decoration: none;
 }
 
@@ -1021,6 +1029,11 @@ button.bg-danger:hover {
 .border-top {
     border-top: 2px dotted hsla(0, 11%, 22%, 0.2) !important
 }
+
+.dark .border-top {
+    border-top: 2px dotted #fff !important
+}
+
 
 .border-right {
     border-right: 2px solid hsla(0, 0%, 100%, .2) !important
@@ -15251,6 +15264,10 @@ a.badge-danger:focus {
     border-right: 2px solid hsla(0, 3%, 6%, 0.2);
 }
 
+.dark .timeline:before {
+    border-right: 2px solid hsla(0, 0%, 100%, .6);
+}
+
 .timeline:after {
     content: "";
     position: absolute;
@@ -16059,7 +16076,6 @@ span>a:hover {
 }
 
 .social ul li:hover a {
-    color: #000;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -16098,9 +16114,10 @@ span>a:hover {
     box-shadow: 0 0 1px #ccc;
     display: block;
     background: whitesmoke;
-    height: 40px;
+    height: 35px;
     width: 100px;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .left,
@@ -16111,7 +16128,7 @@ span>a:hover {
 .left {
     background: #6EB43F;
     position: relative;
-    height: 40px;
+    height: 35px;
     width: 30%;
 }
 
@@ -16141,17 +16158,16 @@ span>a:hover {
 }
 
 .right {
-    height: 40px;
+    height: 35px;
     width: 70%;
 }
 
 .right h5 {
     color: #888;
     font-weight: bold;
-    font-size: 10px;
-    text-transform: uppercase;
+    font-size: 12px;
     text-align: center;
-    margin: 14px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .download i.fa.fa-cloud.fa-2x {
@@ -16164,13 +16180,17 @@ span>a:hover {
 
 .social-menu li{
     list-style: none;
+    width: 50px;
 }
 
 .social-menu li .fa {
     font-size: 16px;
     transition: .3s;
     color: #000;
-    margin: 10px 0 10px 12px;
+}
+
+.dark .social-menu li .fa {
+    color: #fff;
 }
 
 .social-menu li .fa:hover{
@@ -16180,11 +16200,10 @@ span>a:hover {
 .social-menu li a {
     position: relative;
     display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
     transition: .6s;
+    border-radius: 90px;
     border: 2px dotted rgba(0,0,0,.5);
+    text-align: center;
 }
 
 .social-menu li a:hover{
@@ -16228,4 +16247,28 @@ ul.card-small li {
     list-style: circle;
     display: list-item;
     margin-left: 15px;
+}
+.dark .nav-right{
+    border: 2px dotted #fff;
+}
+.dark .social-menu li a {
+    border: 2px dotted #fff;
+}
+
+.nav-right {
+    float: inline-end;
+    position: relative;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border: 2px dotted rgba(0, 0, 0, .5);
+    border-radius: 50%;
+}
+.nav-right span {
+    margin-left: 5px;
+    font-size: 19px;
+}
+.nav-right:hover {
+    cursor: pointer;
+    background: #ccc;
 }
