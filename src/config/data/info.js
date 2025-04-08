@@ -137,8 +137,11 @@ export const useInfo = {
 const urlDomain = "https://trngtam10d.github.io/assets/img";
 const urlDomainLocal = "http://localhost:3000/assets/img";
 export const useImage = {
-    imgLogo: urlDomain + '/' + 'logo.png',
-    imgAvatar: urlDomain + '/' + 'avatar.jpg',
+    monad: urlDomainLocal + '/' + 'monad.png',
+    banner: urlDomainLocal + '/' + 'banner.jpg',
+    icon: urlDomainLocal + '/' + 'android-chrome-192x192.png',
+    help: urlDomainLocal + '/' + 'android-chrome-512x512.png',
+
     php: urlDomain + '/' + 'php-file.png',
     html: urlDomain + '/' + 'html.png',
     html5: urlDomain + '/' + 'html5.png',
