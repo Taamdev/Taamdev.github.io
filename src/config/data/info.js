@@ -135,7 +135,7 @@ export const useInfo = {
     sendMessageUrl: "https://script.google.com/macros/s/AKfycbyst8zz_7-jvNK6WdC564_62hYMqhcGtZH4U1khUmh7isdZU9fnloNIO2sxZwNOB8IB/exec"
 };
 const urlDomain = "https://trngtam10d.github.io/assets/img";
-const urlDomainLocal = "http://localhost:3000/assets/img";
+const urlDomainLocal = "https://trngtam10d.github.io/assets/img";
 export const useImage = {
     monad: urlDomainLocal + '/' + 'monad.png',
     banner: urlDomainLocal + '/' + 'banner.jpg',
