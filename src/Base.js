@@ -1,5 +1,4 @@
 import * as React from "react";
-import { useImage } from "./config/data/info";
 import Header from "./components/Header";
 import TabHome from "./components/TabHome";
 
