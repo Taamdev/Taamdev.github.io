@@ -858,7 +858,7 @@ body {
   max-width: 1024px;
 }
 .styles_banner__MiCog {
-  background-image: url(../public/assets/img/banner.jpg);
+  background-image: url(assets/img/banner.jpg);
 }
 @media (min-width: 1024px) {
   .styles_layout__mDbZ7 {
@@ -873,7 +873,7 @@ body {
   }
 }
 .styles_avatar {
-  background-image: url(../public/assets/img/monad.png);
+  background-image: url(assets/img/monad.png);
   background-color: var(--color-purple-300);
 }
 .styles_icon a {
